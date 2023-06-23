@@ -2,8 +2,7 @@
 * @name Nocturnal
 * @version 3.0.1
 * @description For when default discord just isn't dark enough, a theme for those who live a night
-* @author Spectra
-* @invite PZdnCVD
+* @author Memeverze (original by Spectra)
 * @source https://github.com/xcruxiex/themes
 * @website https://betterdiscord.app/theme/Nocturnal
 */
@@ -11,22 +10,22 @@
 /*
                                                                                                                                                                      
                                                                                                                                                                      
-NNNNNNNN        NNNNNNNN                                              tttt                                                                                   lllllll 
-N:::::::N       N::::::N                                           ttt:::t                                                                                   l:::::l 
-N::::::::N      N::::::N                                           t:::::t                                                                                   l:::::l 
-N:::::::::N     N::::::N                                           t:::::t                                                                                   l:::::l 
-N::::::::::N    N::::::N   ooooooooooo       ccccccccccccccccttttttt:::::ttttttt    uuuuuu    uuuuuu rrrrr   rrrrrrrrr   nnnn  nnnnnnnn      aaaaaaaaaaaaa    l::::l 
-N:::::::::::N   N::::::N oo:::::::::::oo   cc:::::::::::::::ct:::::::::::::::::t    u::::u    u::::u r::::rrr:::::::::r  n:::nn::::::::nn    a::::::::::::a   l::::l 
-N:::::::N::::N  N::::::No:::::::::::::::o c:::::::::::::::::ct:::::::::::::::::t    u::::u    u::::u r:::::::::::::::::r n::::::::::::::nn   aaaaaaaaa:::::a  l::::l 
-N::::::N N::::N N::::::No:::::ooooo:::::oc:::::::cccccc:::::ctttttt:::::::tttttt    u::::u    u::::u rr::::::rrrrr::::::rnn:::::::::::::::n           a::::a  l::::l 
-N::::::N  N::::N:::::::No::::o     o::::oc::::::c     ccccccc      t:::::t          u::::u    u::::u  r:::::r     r:::::r  n:::::nnnn:::::n    aaaaaaa:::::a  l::::l 
-N::::::N   N:::::::::::No::::o     o::::oc:::::c                   t:::::t          u::::u    u::::u  r:::::r     rrrrrrr  n::::n    n::::n  aa::::::::::::a  l::::l 
-N::::::N    N::::::::::No::::o     o::::oc:::::c                   t:::::t          u::::u    u::::u  r:::::r              n::::n    n::::n a::::aaaa::::::a  l::::l 
-N::::::N     N:::::::::No::::o     o::::oc::::::c     ccccccc      t:::::t    ttttttu:::::uuuu:::::u  r:::::r              n::::n    n::::na::::a    a:::::a  l::::l 
-N::::::N      N::::::::No:::::ooooo:::::oc:::::::cccccc:::::c      t::::::tttt:::::tu:::::::::::::::uur:::::r              n::::n    n::::na::::a    a:::::a l::::::l
-N::::::N       N:::::::No:::::::::::::::o c:::::::::::::::::c      tt::::::::::::::t u:::::::::::::::ur:::::r              n::::n    n::::na:::::aaaa::::::a l::::::l
-N::::::N        N::::::N oo:::::::::::oo   cc:::::::::::::::c        tt:::::::::::tt  uu::::::::uu:::ur:::::r              n::::n    n::::n a::::::::::aa:::al::::::l
-NNNNNNNN         NNNNNNN   ooooooooooo       cccccccccccccccc          ttttttttttt      uuuuuuuu  uuuurrrrrrr              nnnnnn    nnnnnn  aaaaaaaaaa  aaaallllllll
+MMMMMMMM               MMMMMMMM                                                                                                                                                                 
+M:::::::M             M:::::::M                                                                                                                                                                 
+M::::::::M           M::::::::M                                                                                                                                                                 
+M:::::::::M         M:::::::::M                                                                                                                                                                 
+M::::::::::M       M::::::::::M    eeeeeeeeeeee       mmmmmmm    mmmmmmm       eeeeeeeeeeee  vvvvvvv           vvvvvvv eeeeeeeeeeee    rrrrr   rrrrrrrrr   zzzzzzzzzzzzzzzzz    eeeeeeeeeeee    
+M:::::::::::M     M:::::::::::M  ee::::::::::::ee   mm:::::::m  m:::::::mm   ee::::::::::::ee v:::::v         v:::::vee::::::::::::ee  r::::rrr:::::::::r  z:::::::::::::::z  ee::::::::::::ee  
+M:::::::M::::M   M::::M:::::::M e::::::eeeee:::::eem::::::::::mm::::::::::m e::::::eeeee:::::eev:::::v       v:::::ve::::::eeeee:::::eer:::::::::::::::::r z::::::::::::::z  e::::::eeeee:::::ee
+M::::::M M::::M M::::M M::::::Me::::::e     e:::::em::::::::::::::::::::::me::::::e     e:::::e v:::::v     v:::::ve::::::e     e:::::err::::::rrrrr::::::rzzzzzzzz::::::z  e::::::e     e:::::e
+M::::::M  M::::M::::M  M::::::Me:::::::eeeee::::::em:::::mmm::::::mmm:::::me:::::::eeeee::::::e  v:::::v   v:::::v e:::::::eeeee::::::e r:::::r     r:::::r      z::::::z   e:::::::eeeee::::::e
+M::::::M   M:::::::M   M::::::Me:::::::::::::::::e m::::m   m::::m   m::::me:::::::::::::::::e    v:::::v v:::::v  e:::::::::::::::::e  r:::::r     rrrrrrr     z::::::z    e:::::::::::::::::e 
+M::::::M    M:::::M    M::::::Me::::::eeeeeeeeeee  m::::m   m::::m   m::::me::::::eeeeeeeeeee      v:::::v:::::v   e::::::eeeeeeeeeee   r:::::r                z::::::z     e::::::eeeeeeeeeee  
+M::::::M     MMMMM     M::::::Me:::::::e           m::::m   m::::m   m::::me:::::::e                v:::::::::v    e:::::::e            r:::::r               z::::::z      e:::::::e           
+M::::::M               M::::::Me::::::::e          m::::m   m::::m   m::::me::::::::e                v:::::::v     e::::::::e           r:::::r              z::::::zzzzzzzze::::::::e          
+M::::::M               M::::::M e::::::::eeeeeeee  m::::m   m::::m   m::::m e::::::::eeeeeeee         v:::::v       e::::::::eeeeeeee   r:::::r             z::::::::::::::z e::::::::eeeeeeee  
+M::::::M               M::::::M  ee:::::::::::::e  m::::m   m::::m   m::::m  ee:::::::::::::e          v:::v         ee:::::::::::::e   r:::::r            z:::::::::::::::z  ee:::::::::::::e  
+MMMMMMMM               MMMMMMMM    eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm    eeeeeeeeeeeeee           vvv            eeeeeeeeeeeeee   rrrrrrr            zzzzzzzzzzzzzzzzz    eeeeeeeeeeeeee  
                                                                                                                                                                      
                                                                                                                                                                      
 */
