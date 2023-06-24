@@ -33,6 +33,9 @@ MMMMMMMM               MMMMMMMM    eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm    e
 @import url("https://xcruxiex.github.io/themes/core/custom-font.css");
 @import url("https://raw.githubusercontent.com/Memeverze/custom-dc-theme-memeverze/main/ServerRings.css");
 :root {
+	--text-normal: #828a99;
+	--text-muted: #2b2e33;
+	--text-link: #450391;
   --backgroundColor01: #16171a;
   --backgroundColor02: #0f1012;
   --mainColor: #829199;
