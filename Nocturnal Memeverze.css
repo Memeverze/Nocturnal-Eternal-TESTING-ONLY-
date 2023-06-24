@@ -32,7 +32,9 @@ MMMMMMMM               MMMMMMMM    eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm    e
 @import url("https://xcruxiex.github.io/themes/core/badges.css");
 @import url("https://xcruxiex.github.io/themes/core/custom-font.css");
 :root {
-  --text-normal: #8d96a6;
+	--header-primary: #8d96a6);
+	--header-secondary: #747d91);
+ 	--text-normal: #8d96a6;
 	--text-muted: #2b2e33;
 	--text-link: #450391;
   --backgroundColor01: #16171a;
