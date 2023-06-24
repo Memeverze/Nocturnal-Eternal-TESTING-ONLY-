@@ -40,7 +40,7 @@ MMMMMMMM               MMMMMMMM    eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm    e
 
   /* Better Hljs */
   --backgroundCode: #1e2731;
-  --backgroundName: rgba(0, 0, 0, .2);
+  --backgroundName: rgba(255, 0, 0, .2);
 
   --customFont: 'gg sans', sans-serif;
 }
