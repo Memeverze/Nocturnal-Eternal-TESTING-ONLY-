@@ -40,10 +40,10 @@ MMMMMMMM               MMMMMMMM    eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm    e
   --gradientColor02: #650bdb;
 
   --server-unread-colour: 255, 255, 255;
-	--server-hover-colour: 255, 255, 255;
-	--server-selected-colour: var(--accent, 0, 231, 169);
-	--server-spacing: 16px;
-	--server-glow-intensity: 1;
+  --server-hover-colour: 255, 255, 255;
+  --server-selected-colour: var(--accent, 0, 231, 169);
+  --server-spacing: 16px;
+  --server-glow-intensity: 1;
 
   /* Better Hljs */
   --backgroundCode: #1e2731;
