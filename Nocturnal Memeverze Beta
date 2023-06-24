@@ -1,1 +1,136 @@
+/**
+* @name Nocturnal
+* @version 3.0.1
+* @description For when default discord just isn't dark enough, a theme for those who live a night
+* @author Memeverze (original by Spectra)
+* @source https://github.com/xcruxiex/themes
+* @website https://betterdiscord.app/theme/Nocturnal
+*/
+@import url("https://xcruxiex.github.io/themes/themes-cores/nocturnal.css");
+/*
+                                                                                                                                                                     
+                                                                                                                                                                     
+MMMMMMMM               MMMMMMMM                                                                                                                                                                 
+M:::::::M             M:::::::M                                                                                                                                                                 
+M::::::::M           M::::::::M                                                                                                                                                                 
+M:::::::::M         M:::::::::M                                                                                                                                                                 
+M::::::::::M       M::::::::::M    eeeeeeeeeeee       mmmmmmm    mmmmmmm       eeeeeeeeeeee  vvvvvvv           vvvvvvv eeeeeeeeeeee    rrrrr   rrrrrrrrr   zzzzzzzzzzzzzzzzz    eeeeeeeeeeee    
+M:::::::::::M     M:::::::::::M  ee::::::::::::ee   mm:::::::m  m:::::::mm   ee::::::::::::ee v:::::v         v:::::vee::::::::::::ee  r::::rrr:::::::::r  z:::::::::::::::z  ee::::::::::::ee  
+M:::::::M::::M   M::::M:::::::M e::::::eeeee:::::eem::::::::::mm::::::::::m e::::::eeeee:::::eev:::::v       v:::::ve::::::eeeee:::::eer:::::::::::::::::r z::::::::::::::z  e::::::eeeee:::::ee
+M::::::M M::::M M::::M M::::::Me::::::e     e:::::em::::::::::::::::::::::me::::::e     e:::::e v:::::v     v:::::ve::::::e     e:::::err::::::rrrrr::::::rzzzzzzzz::::::z  e::::::e     e:::::e
+M::::::M  M::::M::::M  M::::::Me:::::::eeeee::::::em:::::mmm::::::mmm:::::me:::::::eeeee::::::e  v:::::v   v:::::v e:::::::eeeee::::::e r:::::r     r:::::r      z::::::z   e:::::::eeeee::::::e
+M::::::M   M:::::::M   M::::::Me:::::::::::::::::e m::::m   m::::m   m::::me:::::::::::::::::e    v:::::v v:::::v  e:::::::::::::::::e  r:::::r     rrrrrrr     z::::::z    e:::::::::::::::::e 
+M::::::M    M:::::M    M::::::Me::::::eeeeeeeeeee  m::::m   m::::m   m::::me::::::eeeeeeeeeee      v:::::v:::::v   e::::::eeeeeeeeeee   r:::::r                z::::::z     e::::::eeeeeeeeeee  
+M::::::M     MMMMM     M::::::Me:::::::e           m::::m   m::::m   m::::me:::::::e                v:::::::::v    e:::::::e            r:::::r               z::::::z      e:::::::e           
+M::::::M               M::::::Me::::::::e          m::::m   m::::m   m::::me::::::::e                v:::::::v     e::::::::e           r:::::r              z::::::zzzzzzzze::::::::e          
+M::::::M               M::::::M e::::::::eeeeeeee  m::::m   m::::m   m::::m e::::::::eeeeeeee         v:::::v       e::::::::eeeeeeee   r:::::r             z::::::::::::::z e::::::::eeeeeeee  
+M::::::M               M::::::M  ee:::::::::::::e  m::::m   m::::m   m::::m  ee:::::::::::::e          v:::v         ee:::::::::::::e   r:::::r            z:::::::::::::::z  ee:::::::::::::e  
+MMMMMMMM               MMMMMMMM    eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm    eeeeeeeeeeeeee           vvv            eeeeeeeeeeeeee   rrrrrrr            zzzzzzzzzzzzzzzzz    eeeeeeeeeeeeee  
+                                                                                                                                                                     
+                                                                                                                                                                     
+*/
+@import url("https://xcruxiex.github.io/themes/core/badges.css");
+@import url("https://xcruxiex.github.io/themes/core/custom-font.css");
+:root {
+  --backgroundColor01: #16171a;
+  --backgroundColor02: #0f1012;
+  --mainColor: #829199;
+  --gradientColor01: #14b456;
+  --gradientColor02: #650bdb;
 
+  /* Better Hljs */
+  --backgroundCode: #1e2731;
+  --backgroundName: rgba(0, 0, 0, .2);
+
+  --customFont: 'gg sans', sans-serif;
+	--server-unread-colour: 255, 255, 255;
+	--server-hover-colour: 255, 255, 255;
+	--server-selected-colour: var(--accent, 0, 231, 169);
+	--server-spacing: 16px;
+	--server-glow-intensity: 1;
+}
+
+#app-mount {
+	.wrapper-38slSD ul[role='group'] {
+		height: auto !important;
+	}
+
+	.scroller-3X7KbA > div[style]:not([class]) {
+		margin-bottom: var(--server-spacing);
+	}
+
+	// Container
+	.listItem-3SmSlK {
+		width: 100%;
+		margin-bottom: var(--server-spacing);
+		[class*='pill'] {
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			width: calc(var(--server-size, 48px) + 8px);
+			height: calc(var(--server-size, 48px) + 8px);
+			overflow: visible;
+			margin-left: -2px;
+			.item-2LIpTv {
+				height: 100% !important;
+				width: 100%;
+				margin: 0;
+				border-radius: var(--server-roundness, 50%);
+				background: transparent;
+				border: 2px solid transparent;
+				box-shadow: none;
+				transform: none !important;
+				transition: var(--transition);
+				transition-property: box-shadow;
+			}
+			@for $i from 0 through 8 {
+				span[style*='height: #{$i}'] {
+					box-shadow: 0
+						0
+						calc(var(--server-glow-intensity) * 15px)
+						calc(var(--server-glow-intensity) * 5px)
+						rgb(var(--server-unread-colour), 0.25);
+					border-color: rgb(var(--server-unread-colour));
+				}
+			}
+			// Hovered
+			@for $i from 9 through 20 {
+				span[style*='height: #{$i}'] {
+					border-color: rgb(var(--server-hover-colour));
+					box-shadow: 0
+						0
+						calc(var(--server-glow-intensity) * 15px)
+						calc(var(--server-glow-intensity) * 5px)
+						rgb(var(--server-hover-colour), 0.25);
+				}
+			}
+			// Selected
+			@for $i from 21 through 40 {
+				span[style*='height: #{$i}'] {
+					transform: scale(1) !important;
+					border-color: rgb(var(--server-selected-colour));
+					box-shadow: 0
+						0
+						calc(var(--server-glow-intensity) * 15px)
+						calc(var(--server-glow-intensity) * 5px)
+						rgb(var(--server-selected-colour), 0.25);
+				}
+			}
+		}
+	}
+
+	// Active state
+	.blobContainer-ikKyFs,
+	.listItemWrapper-3d87LP {
+		transition: var(--transition, 0.15s ease);
+		transition-property: transform;
+		&:active {
+			transform: scale(0.9);
+		}
+	}
+
+	.svg-2ifYOU foreignObject {
+		border-radius: var(--server-roundness, 50%);
+		mask: none !important;
+	}
+}
