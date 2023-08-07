@@ -52,7 +52,9 @@ MMMMMMMM               MMMMMMMM    eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm    e
   --backgroundName: rgba(0, 0, 0, .2);
 
   --customFont: 'gg sans', sans-serif;
-:status-online {
-    background-color: #F01C9B;
+
 }
+
+.status-online {
+    background-color: #F01C9B;
 }
