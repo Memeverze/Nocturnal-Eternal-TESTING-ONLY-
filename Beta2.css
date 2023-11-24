@@ -6,8 +6,8 @@
 * @source https://github.com/xcruxiex/themes
 * @website https://betterdiscord.app/theme/Nocturnal
 */
-@import url("https://raw.githubusercontent.com/Memeverze/custom-dc-theme-memeverze/main/BASE.cs");
-@import url("https://raw.githubusercontent.com/Memeverze/custom-dc-theme-memeverze/main/backup.cs");
+@import url("https://raw.githubusercontent.com/Memeverze/custom-dc-theme-memeverze/main/BASE.css");
+@import url("https://raw.githubusercontent.com/Memeverze/custom-dc-theme-memeverze/main/backup.css");
 /*
                                                                                                                                                                      
                                                                                                                                                                      
@@ -41,7 +41,7 @@ MMMMMMMM               MMMMMMMM    eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm    e
   --backgroundColor01: #16171a;
   --backgroundColor02: #0f1012;
   --mainColor: #829199;
-  --gradientColor01: #ffffff;
+  --gradientColor01: #650bdb;
   --gradientColor02: #ffffff;
 
   /* Better Hljs */
